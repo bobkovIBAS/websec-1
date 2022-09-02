@@ -1,0 +1,19 @@
+﻿body {
+    background-color: palegreen;
+}
+.row {
+    padding: 10px;
+}
+.back {
+    margin: 20px 20px 20px 20px;
+    border-style: dashed;
+    border-width: 2px 2px 2px 2px;
+    border-color: red;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+.button {
+    border-style: dashed;
+    border-width: 2px 2px 2px 2px;
+    border-color: red;
+}

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html  class = "htmlStyle">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="back">
+        <div class="row">
+            <input type="text" class="button" id="TheFirstElement" required placeholder="Введите число" />
+
+            <select class="button">
+                <option value="plus" onclick="typeOfOperation='+'"> + </option>
+                <option value="minus" onclick="typeOfOperation='-'"> - </option>
+                <option value="multiplication" onclick="typeOfOperation='*'"> * </option>
+                <option value="division" onclick="typeOfOperation='/'"> / </option>
+            </select>
+
+            <input type="text" class="button" id="TheSecondElement" required placeholder="Введите число" />
+        </div>
+
+        <div class="row">   
+            <button onclick="Calculate()"> вычислить </button>
+        </div>
+
+        <div class="row">
+            <textarea id="result"> </textarea>
+        </div>
+
+        
+    </div>  
+
+
+</body>
+</html>
