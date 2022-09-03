@@ -1,19 +1,36 @@
-﻿body {
-    background-color: palegreen;
+﻿button{
+  padding: 10px 15px;
+  border-style: dashed;
+  border-color: red;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  position:relative;
+  width: 130px;
+  left:190px;
 }
 .row {
-    padding: 10px;
+  padding: 10px 15px;
 }
-.back {
-    margin: 20px 20px 20px 20px;
-    border-style: dashed;
-    border-width: 2px 2px 2px 2px;
-    border-color: red;
-    background-color: lightgreen;
-    border-radius: 15px;
+
+.InputButton {
+  padding: 10px 15px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: red;
+  border-radius: 10px;
+  background-color: lightgreen;
 }
-.button {
-    border-style: dashed;
-    border-width: 2px 2px 2px 2px;
-    border-color: red;
+textarea {
+  border-style: dashed;
+  border-color: red;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  padding: 10px 15px;
+  resize: none;
+}
+.back{
+  background-color: lightgreen;
+  border-radius: 10px;
 }
