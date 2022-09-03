@@ -2,35 +2,34 @@
   padding: 10px 15px;
   border-style: dashed;
   border-color: red;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 10px;
   background-color: lightgreen;
   position:relative;
-  width: 130px;
-  left:190px;
-}
-.row {
-  padding: 10px 15px;
-}
 
-.InputButton {
-  padding: 10px 15px;
-  border-style: dashed;
-  border-width: 2px;
-  border-color: red;
-  border-radius: 10px;
-  background-color: lightgreen;
 }
 textarea {
   border-style: dashed;
   border-color: red;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 10px;
   background-color: lightgreen;
-  padding: 10px 15px;
   resize: none;
+}
+.InputButton {
+  padding: 5px 15px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: red;
+  border-radius: 10px;
+  background-color: lightgreen;
+  margin-left: px;
 }
 .back{
   background-color: lightgreen;
   border-radius: 10px;
 }
+
+
+
+

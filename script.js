@@ -6,7 +6,6 @@ function Calculate() {
 
   if (TheFirstNumber === "" || TheSecondNumber === "") {
     alert("Имеются незаполненные поля");
-    breal
   } else {
     switch (typeOfOperation) {
       case "+":
